@@ -7,12 +7,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          This is a <code>react-app</code> template
+          This is a <code>react-app-template</code> by <code>dan7467</code>
         </p>
         <p>
-          <button><b>Home</b></button>&ensp;
-          <button><b>About</b></button>&ensp;
-          <button><b>Contact us</b></button>
+          <button class="button-18"><b>Home</b></button>&ensp;
+          <button class="button-18"><b>About</b></button>&ensp;
+          <button class="button-18"><b>Contact us</b></button>
         </p>
       </header>
     </div>
