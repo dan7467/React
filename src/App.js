@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <code>react application template </code><i>by</i>  <code><i>dan7467</i></code>
+          <h1><code>react application template </code></h1><i>by</i>  <code><i>dan7467</i></code>
         </p>
         <p>
           <button class="button-18"><b>Home</b></button>&ensp;
