@@ -15,7 +15,7 @@ code {
 /* CSS */
 .button-18 {
   align-items: center;
-  background-color: #a3a3a3;
+  background-color: #000000;
   border: 0;
   border-radius: 100px;
   box-sizing: border-box;
@@ -44,7 +44,7 @@ code {
 
 .button-18:hover,
 .button-18:focus { 
-  background-color: #858585;
+  background-color: #424242;
   color: #ffffff;
 }
 
@@ -58,3 +58,4 @@ code {
   background: rgba(0, 0, 0, .08);
   color: rgba(0, 0, 0, .3);
 }
+

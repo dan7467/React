@@ -14,7 +14,7 @@ export function About() {
 }
 
 export function Home() {
-  document.getElementById('header_title').innerHTML = '<code>react application template</code>';
+  document.getElementById('header_title').innerHTML = '<code>react app frontend template</code>';
   document.getElementById('p1').innerHTML = '<i>by </i><code><i>dan7467</i></code>';
 }
 
@@ -31,7 +31,7 @@ function App() {
       </header></div>
       <div id="pagebody">
         <img id="mainlogo" src={logo} className="App-logo" alt="logo" />
-          <h1 id="header_title"><code>react application template </code></h1><p id="p1"><i>by </i><code><i>dan7467</i></code></p>
+          <h1 id="header_title"><code>react app frontend template </code></h1><p id="p1"><i>by </i><code><i>dan7467</i></code></p>
       </div>
     </div>
     
