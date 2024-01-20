@@ -18,16 +18,20 @@ export function Home() {
   document.getElementById('p1').innerHTML = '<i>by </i><code><i>dan7467</i></code>';
 }
 
+// TO-DOs: 
+// 1. re-structure everything here so that the Navbar and the page's main body is SEPERATED
+// 2. add bottom bar (as component)
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navbar></Navbar>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img id="mainlogo" src={logo} className="App-logo" alt="logo" />
           <h1 id="header_title"><code>react application template </code></h1><p id="p1"><i>by </i><code><i>dan7467</i></code></p>
         <p id="buttons">
-          <button className="button-18" onClick={Home}><b>Home</b></button>&ensp;
-          <button className="button-18" onClick={About}><b>About</b></button>&ensp;
+        &ensp;&ensp;<button className="button-18" onClick={Home}><b>Home</b></button>&ensp;&ensp;
+          <button className="button-18" onClick={About}><b>About</b></button>&ensp;&ensp;
           <button className="button-18" onClick={Contact}><b>Contact us</b></button>
         </p>
       </header>

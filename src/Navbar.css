@@ -2,14 +2,21 @@
     position: absolute;
     top: 0px;
   width: 100%;
-  background-color: #a3a3a3;
+  background-color: #5c4522;
   margin-bottom: 20px;
+}
+
+#user_logo {
+    position: relative;
+    top: 8px;
+    width:3%;
+    height:3%;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
 }
 
@@ -21,6 +28,9 @@ li {
 li a {
   display: block;
   padding: 8px;
-  background-color: #a3a3a3;
+  background-color: #5c4522;
 }
 
+.button-18 {
+    margin: 4px;
+}
