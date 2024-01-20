@@ -25,16 +25,14 @@ export function Home() {
 function App() {
   return (
     <div className="App">
+      <div>
       <header className="App-header">
         <Navbar></Navbar>
+      </header></div>
+      <div id="pagebody">
         <img id="mainlogo" src={logo} className="App-logo" alt="logo" />
           <h1 id="header_title"><code>react application template </code></h1><p id="p1"><i>by </i><code><i>dan7467</i></code></p>
-        <p id="buttons">
-        &ensp;&ensp;<button className="button-18" onClick={Home}><b>Home</b></button>&ensp;&ensp;
-          <button className="button-18" onClick={About}><b>About</b></button>&ensp;&ensp;
-          <button className="button-18" onClick={Contact}><b>Contact us</b></button>
-        </p>
-      </header>
+      </div>
     </div>
     
   );

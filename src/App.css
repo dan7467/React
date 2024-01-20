@@ -1,4 +1,5 @@
 .App {
+  background-color: #cfa06b;
   text-align: center;
 }
 
@@ -15,7 +16,6 @@
 
 .App-header {
   background-color: #cfa06b;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,4 +40,14 @@
 #mainlogo{
   width: 22%;
   height: 22%;
+}
+
+#pagebody{
+  position: relative;
+  background-color: #cfa06b;
+  margin-top: 10%;
+}
+
+html {
+  background-color: #cfa06b;
 }
