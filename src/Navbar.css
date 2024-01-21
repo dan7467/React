@@ -3,6 +3,12 @@
     top: 0px;
     width: 100%;
     background-color: #5c4522;
+    box-shadow: 0 0 10px #000000;
+}
+
+#innerdiv {
+    border-bottom: solid;
+    border-color: #503c1d;
 }
 
 #user_logo {
